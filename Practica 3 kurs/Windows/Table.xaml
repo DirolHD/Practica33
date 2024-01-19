@@ -1,0 +1,23 @@
+﻿<Window x:Class="Practica_3_kurs.Table"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Practica_3_kurs"
+        mc:Ignorable="d"
+        Title="Table" Height="450" Width="800" Closing="Window_Closing" Background="LightSteelBlue" >
+    <Grid>
+
+        <Image Margin="689,10,11,341" Source="E:\Литвинов\Practica 3 kurs\Practica 3 kurs\recourse\Image1.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.072"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Button Name="personalAccountButton" Click="personalAccountButton_Click" Content="Button" HorizontalAlignment="Left" Margin="678,0,0,0" VerticalAlignment="Top" Height="101" Width="122" Opacity="0" Background="LightSteelBlue"/>
+    </Grid>
+</Window>
